@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dlib = "*"
+cmake = "*"
+face-recognition = "*"
+cvzone = "*"
+opencv-python = "==4.5.4.60"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
