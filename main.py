@@ -17,7 +17,7 @@ for path in modePathList:
 
 # run the webcam
 while True:
-    success, img=cap.read()
+    success, img = cap.read()
     
     imgBackground[162:162 + 480, 55:55 + 640] = img
     imgBackground[44:44 + 633, 808:808 + 414] = imgModeList[0]
