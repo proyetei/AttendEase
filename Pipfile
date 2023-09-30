@@ -9,6 +9,7 @@ cmake = "*"
 face-recognition = "*"
 cvzone = "*"
 opencv-python = "==4.5.4.60"
+firebase-admin = "*"
 
 [dev-packages]
 
