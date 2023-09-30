@@ -60,6 +60,7 @@
                 "sha256:a6bea5834647b6fc52a44d8b4b670f8c88b2d4f0fc56549b4024ce224f0d3979"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.6'",
             "version": "==1.6.1"
         },
         "dlib": {
@@ -155,6 +156,7 @@
                 "sha256:febc6e52db03cc0ca1cd2fc56c8f94ac15349ca19d10732261c766c463e681a6"
             ],
             "index": "pypi",
+            "markers": "python_version >= '3.6'",
             "version": "==4.5.4.60"
         },
         "pillow": {
