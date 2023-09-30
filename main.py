@@ -38,7 +38,7 @@ while True:
     imgBackground[162:162 + 480, 55:55 + 640] = img
     imgBackground[44:44 + 633, 808:808 + 414] = imgModeList[3]
     
-    for encoFace, faceLoc in zip(encodeCurFrame, faceCurFrame):
+    for encodeFace, faceLoc in zip(encodeCurFrame, faceCurFrame):
         matches = face_recognition.compare_faces(encodeListKnown, encodeFace)
         faceDis = face_recognition.face_distance(encodeListKnown, encodeFace)
         
@@ -54,6 +54,3 @@ while True:
             
     cv2.imshow("Face Attendance", imgBackground) 
     cv2.waitKey(1)
-    
-
-print("hello world")
