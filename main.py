@@ -73,6 +73,10 @@ while True:
                 id = studentIds[matchIndex] #ID of the student detected
 
                 if counter == 0:
+                    if modeType != 3:
+                        cvzone.putTextRect(imgBackground, "Loading...", (275, 400))
+                        cv2.imshow("Face Attendance", imgBackground)
+                        cv2.waitKey(1)
                     counter += 1
                     modeType = 1
 
