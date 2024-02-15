@@ -9,3 +9,8 @@ CVZone for webcam-based attendance verification. The tool uses machine learning 
 In the initial run, run EncodeGenerator.py and AddDatatoDatabse.py to generate image encoding and store the initial data in database
 After that, run main.py to use the attendance system.
 
+## Technologies used:
+- Python
+- OpenCV
+- CVZone
+
