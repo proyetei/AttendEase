@@ -13,4 +13,6 @@ After that, run main.py to use the attendance system.
 - Python
 - OpenCV
 - CVZone
+## How the app looks :D
 
+![Attendance project](https://github.com/proyetei/AttendEase/assets/75600096/9f28449b-64b8-4275-a459-96bc0881e344)
