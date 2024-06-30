@@ -1,6 +1,7 @@
 # AttendEase
-Project description: A facial recognition software integrated with real-time database with Python, OpenCV,
-CVZone for webcam-based attendance verification. The tool uses machine learning algorithms to identify the student's faces via their webcam to mark their attendance. The data is then stored in our firebase and google cloud platform database.
+Project description: Developed a student attendance tracking software utilizing facial recognition via webcam using the Haar Cascade
+algorithm, integrating with GCP and Firebase to manage user data
+
 
 ## Pre-requisites:
 -Pipenv (latest version)
